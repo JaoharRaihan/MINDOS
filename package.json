@@ -4,6 +4,8 @@
   "private": true,
   "description": "MindOS — Modern AI-powered Personal Wellbeing System",
   "scripts": {
+    "build": "npm --prefix backend install && npm --prefix backend run build",
+    "start": "npm --prefix backend run start",
     "backend:dev": "npm --prefix backend run dev",
     "backend:build": "npm --prefix backend run build",
     "backend:test": "npm --prefix backend test",
