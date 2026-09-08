@@ -1,0 +1,24 @@
+{
+  "name": "mindos-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MindOS — Modern AI-powered Personal Wellbeing System",
+  "scripts": {
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:build": "npm --prefix backend run build",
+    "backend:test": "npm --prefix backend test",
+    "backend:typecheck": "npm --prefix backend run typecheck",
+    "mobile:typecheck": "npm --prefix mobile run typecheck",
+    "test": "npm run backend:test",
+    "typecheck": "npm run backend:typecheck && npm run mobile:typecheck"
+  },
+  "keywords": [
+    "mindos",
+    "wellbeing",
+    "ai-gateway",
+    "react-native",
+    "bangladesh"
+  ],
+  "author": "MindOS Team",
+  "license": "UNLICENSED"
+}
