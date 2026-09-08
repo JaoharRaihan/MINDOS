@@ -15,6 +15,7 @@ atlas-credentials.env
 dist/
 build/
 *.tsbuildinfo
+*.apk
 
 # Logs
 logs/
