@@ -6,7 +6,7 @@ import { tokenStorage } from '../utils/tokenStorage';
  *
  * Production Cloud URL: Connects client mobile apps worldwide to the live cloud backend.
  */
-export const PRODUCTION_API_URL = 'https://mindos-backend.onrender.com/api';
+export const PRODUCTION_API_URL = 'https://mindos-ujb1.onrender.com/api';
 
 export const BASE_URL =
   (typeof process !== 'undefined' && process.env?.API_BASE_URL)
